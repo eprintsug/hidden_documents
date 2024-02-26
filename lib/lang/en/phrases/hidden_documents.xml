@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+<!-- the policy document used to derive these phrases -->
+<epp:phrase id="Plugin/InputForm/Component/HiddenUpload:title">Add a new hidden document</epp:phrase>
+
+<epp:phrase id="Plugin/InputForm/Component/HiddenUpload:help"><p style="margin-top: 0px">To upload a hidden document to this repository, click the Browse button below to select the file and the Upload button to upload it to the archive. Hidden documents will not be publicly accessible in the live archive and will only be available to repository administrators.</p></epp:phrase>
+
+<epp:phrase id="Plugin/Screen/EPrint/UploadMethod/HiddenFile:title">File</epp:phrase>
+
+</epp:phrases>
