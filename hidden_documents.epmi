@@ -9,41 +9,49 @@
           <datasetid>document</datasetid>
           <filename>cfg.d/hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>ac03f3e3fc8dd8a90e99ea71e3a36212</hash>
+          <hash>ac61f6e9a71ad94e9a34b4d608889edb</hash>
           <hash_type>MD5</hash_type>
-          <filesize>540</filesize>
+          <filesize>2504</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>citations/hidden_document/default.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>382555d80c5ac0f4eee0a42ea8e0946b</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>746</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>epm/hidden_documents/cfg/cfg.d/zz_hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>69bbccdb3b27c2be45fbd7f0bf64311c</hash>
+          <hash>33998ca11fbdaec07b5e7338f0b96594</hash>
           <hash_type>MD5</hash_type>
-          <filesize>874</filesize>
+          <filesize>1041</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>dcf96c412e37477e125305ad14c0fd97</hash>
+          <hash>cc79d01d26d37f5637250c0e65f1094f</hash>
           <hash_type>MD5</hash_type>
-          <filesize>877</filesize>
+          <filesize>2400</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/DataObj/Document/HiddenDocument.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>0d6dd06784e46e935d9312fe90e32e16</hash>
+          <hash>e73210511eda9b42746a6f796c3412b6</hash>
           <hash_type>MD5</hash_type>
-          <filesize>3312</filesize>
+          <filesize>4174</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/InputForm/Component/HiddenDocuments.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>a6b7da224a0a9c7b1018e39ccae7e217</hash>
+          <hash>4bbce45f47b11a5ffd7fe6cb52ed9684</hash>
           <hash_type>MD5</hash_type>
-          <filesize>19805</filesize>
+          <filesize>19819</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -52,6 +60,30 @@
           <hash>d0482ce4b8a5743622789c7a91bf8872</hash>
           <hash_type>MD5</hash_type>
           <filesize>4317</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/EPrint/HiddenDocument.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>11b14e55fd03120b37e372df83b1970d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1168</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/EPrint/HiddenDocument/Files.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>aa9061e30ba009b8674a4550f650156c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>7866</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/EPrint/HiddenDocument/Remove.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>d81566632182b8cfcc94cdb79279d858</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1889</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -76,7 +108,7 @@
       <content>install</content>
     </document>
   </documents>
-  <version>0.2</version>
+  <version>0.3</version>
   <creators>
     <item>
       <name>

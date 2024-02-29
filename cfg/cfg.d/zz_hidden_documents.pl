@@ -4,6 +4,8 @@ $c->{plugins}->{"InputForm::Component::HiddenUpload"}->{params}->{disable} = 0;
 $c->{plugins}->{"InputForm::Component::HiddenDocuments"}->{params}->{disable} = 0;
 
 $c->{plugins}->{"Screen::EPrint::UploadMethod::HiddenFile"}->{params}->{disable} = 0;
+$c->{plugins}->{"Screen::EPrint::HiddenDocument::Remove"}->{params}->{disable} = 0;
+$c->{plugins}->{"Screen::EPrint::HiddenDocument::Files"}->{params}->{disable} = 0;
 
 # unlikley we would want to upload secret files via a URL so disabled by default
 $c->{plugins}->{"Screen::EPrint::UploadMethod::HiddenURL"}->{params}->{disable} = 1;

@@ -132,4 +132,47 @@ sub next_hidden_doc_pos
     return $max + 1;
 }
 
+sub local_path
+{
+    my( $self ) = @_;
+
+    my $eprint = $self->get_parent();
+
+    if( !defined $eprint )
+    {
+        $self->{session}->get_repository->log(
+            "Document ".$self->get_id." has no eprint (eprintid is ".$self->get_value( "eprintid" )."!" );
+        return( undef );
+    }
+    
+    return( $eprint->local_path()."/hidden_docs/".sprintf( "%02d", $self->get_value( "pos" ) ) );
+
+}
+
+sub permit
+{
+    my( $self, $priv, $user ) = @_;
+   
+    my $eprint = $self->get_eprint();
+
+    # we at the very least need a user
+    if( defined $user )
+    {
+        if( $user->has_role( "admin" ) ) # admins can view hidden docs
+        {
+            return 1;
+        }
+
+        # ...as can the user who deposited it...
+        if( $eprint->has_owner( $user ) )
+        {
+            return 1;
+        }  
+    }
+    else
+    {
+        return 0;
+    }
+}
+
 1;

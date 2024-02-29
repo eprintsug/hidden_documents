@@ -162,7 +162,7 @@ sub _doc_action
 
 	local $processor->{document} = $doc;
 	my $plugin;
-	foreach my $params ($processor->screen->action_list( "document_item_actions" ))
+	foreach my $params ($processor->screen->action_list( "hidden_document_item_actions" ))
 	{
 		$plugin = $params->{screen}, last
 			if $params->{screen}->get_subtype eq $doc_internal;
@@ -455,7 +455,7 @@ sub _render_doc_actions
 	# allow document actions to test the document for viewing
 	local $self->{processor}->{document} = $doc;
 
-	foreach my $params ($screen->action_list( "document_item_actions" ))
+	foreach my $params ($screen->action_list( "hidden_document_item_actions" ))
 	{
 		$td = $session->make_element( "td" );
 		$tr->appendChild( $td );
