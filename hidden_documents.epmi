@@ -41,9 +41,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>a9c43fbe53e4b05e8f0de2781d0e99fa</hash>
+          <hash>5c45e7298f48ed956ba56643c556e20d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2665</filesize>
+          <filesize>2854</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
