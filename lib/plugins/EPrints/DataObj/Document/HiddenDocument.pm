@@ -132,6 +132,22 @@ sub next_hidden_doc_pos
     return $max + 1;
 }
 
+sub path
+{
+    my( $self ) = @_;
+
+    my $eprint = $self->parent;
+    return undef if !defined $eprint;
+
+    return undef if !defined $eprint->path;
+
+    return sprintf("%s%i/",
+        $eprint->path."hidden/",
+        $self->value( "pos" ),
+    );
+}
+
+
 sub local_path
 {
     my( $self ) = @_;
@@ -145,7 +161,7 @@ sub local_path
         return( undef );
     }
     
-    return( $eprint->local_path()."/hidden_docs/".sprintf( "%02d", $self->get_value( "pos" ) ) );
+    return( $eprint->local_path()."/hidden/".sprintf( "%02d", $self->get_value( "pos" ) ) );
 
 }
 

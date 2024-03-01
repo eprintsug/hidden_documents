@@ -9,9 +9,9 @@
           <datasetid>document</datasetid>
           <filename>cfg.d/hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>ac61f6e9a71ad94e9a34b4d608889edb</hash>
+          <hash>07c669472fa33dcadb4f1e9583e14820</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2504</filesize>
+          <filesize>2490</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -31,19 +31,27 @@
         </file>
         <file>
           <datasetid>document</datasetid>
+          <filename>epm/hidden_documents/cfg/namedsets/hidden_licenses</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>9213244888b413baf2c8479e017c9246</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>47</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>cc79d01d26d37f5637250c0e65f1094f</hash>
+          <hash>a9c43fbe53e4b05e8f0de2781d0e99fa</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2400</filesize>
+          <filesize>2665</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/DataObj/Document/HiddenDocument.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>e73210511eda9b42746a6f796c3412b6</hash>
+          <hash>4805a6c7667814cb41a25f256f57e7b5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>4174</filesize>
+          <filesize>4422</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -108,7 +116,7 @@
       <content>install</content>
     </document>
   </documents>
-  <version>0.3</version>
+  <version>0.4</version>
   <creators>
     <item>
       <name>

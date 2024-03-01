@@ -4,9 +4,8 @@ $c->add_trigger( EP_TRIGGER_URL_REWRITE, sub
 
 	my( $uri, $rc, $request ) = @args{ qw( uri return_code request ) };
     my $repository = $EPrints::HANDLE->current_repository();
-
     # /id/eprint/<eprint_id>/hidden/<pos>/filename
-    if( $uri =~ s! ^/id/eprint/([1-9][0-9]*)/hidden/([1-9][0-9]*)/(\b) !!x )
+    if( $uri =~ s! ^/([1-9][0-9]*)/hidden/([1-9][0-9]*)/(\b) !!x )
     {
         my $eprintid = $1;
         my $pos = $2;
@@ -26,6 +25,8 @@ $c->add_trigger( EP_TRIGGER_URL_REWRITE, sub
             ${$rc} = Apache2::Const::NOT_FOUND;
             return EP_TRIGGER_DONE;
         }
+
+        ${$rc} = Apache2::Const::OK; # the doc was found so we're OK
 
         $request->pnotes( eprint => $eprint );
         $request->pnotes( document => $doc );
@@ -47,7 +48,6 @@ $c->add_trigger( EP_TRIGGER_URL_REWRITE, sub
         my $method = eval {$request->method};
         if( $method eq "HEAD" ) # we want to skip doing any document processing, this is just a HEAD request
         {
-            ${$rc} = Apache2::Const::OK; # the doc was found so we're OK
             return EP_TRIGGER_DONE;
         }
     }

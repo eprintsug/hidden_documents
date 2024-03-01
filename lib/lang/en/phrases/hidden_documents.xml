@@ -10,6 +10,8 @@
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:show_options">Show options</epp:phrase>
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:hide_options">Hide options</epp:phrase>
 
+<epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Remove:title">Delete document</epp:phrase>
+
 <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/HiddenFile:title">File</epp:phrase>
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:update">Update Metadata</epp:phrase>
 
@@ -17,6 +19,7 @@
 
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:delete_document_confirm">Delete entire document: are you sure?</epp:phrase>
 
+<epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Files:title">Files</epp:phrase>
 <epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Files:help">Add or remove files, change the main file for this document or fix an incorrectly identified MIME-type.</epp:phrase>
 <epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Files:update">Apply</epp:phrase>
 
@@ -29,6 +32,7 @@
 
 <epp:phrase id="hidden_document_fieldname_license">License</epp:phrase>
 <epp:phrase id="hidden_document_fieldhelp_license">Specify an explicit license for this document.</epp:phrase>
+<epp:phrase id="hidden_licenses_typename_allrights">All Rights Reserved</epp:phrase>
 
 <epp:phrase id="hidden_document_fieldname_main">Main file</epp:phrase>
 
