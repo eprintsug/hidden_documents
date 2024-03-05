@@ -11,11 +11,13 @@
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:hide_options">Hide options</epp:phrase>
 
 <epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Remove:title">Delete document</epp:phrase>
+<epp:phrase id="Plugin/Screen/EPrint/HiddenDocument/Remove:item_removed" ref="Plugin/Screen/EPrint/RemoveWithEmail:item_removed"/>
 
 <epp:phrase id="Plugin/Screen/EPrint/UploadMethod/HiddenFile:title">File</epp:phrase>
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:update">Update Metadata</epp:phrase>
 
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:document_problem">In <epc:pin name="document" /> document: <epc:pin name="problem" /></epp:phrase>
+
 
 <epp:phrase id="Plugin/InputForm/Component/HiddenDocuments:delete_document_confirm">Delete entire document: are you sure?</epp:phrase>
 

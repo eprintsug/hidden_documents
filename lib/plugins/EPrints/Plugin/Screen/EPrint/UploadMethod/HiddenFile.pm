@@ -251,16 +251,16 @@ sub render
 	$container->appendChild( $session->make_javascript( <<EOJ ) );
 var div = \$('$self->{prefix}_dropbox');
 var body = document.getElementsByTagName ('body').item (0);
-var controller = new Screen_EPrint_UploadMethod_File ('$self->{prefix}', '$component');
+var hidden_controller = new Screen_EPrint_UploadMethod_File ('$self->{prefix}', '$component');
 Event.observe (div, 'drop', function(evt) {
-		controller.dragFinish (evt);
-		controller.drop (evt);
+		hidden_controller.dragFinish (evt);
+		hidden_controller.drop (evt);
 	});
 Event.observe (body, 'ep:dragcommence', function(evt) {
-		controller.dragCommence (evt);
+		hidden_controller.dragCommence (evt);
 	});
 Event.observe (body, 'ep:dragfinish', function(evt) {
-		controller.dragFinish (evt);
+		hidden_controller.dragFinish (evt);
 	});
 EOJ
 

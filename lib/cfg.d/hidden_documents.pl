@@ -69,10 +69,8 @@ sub get_all_hidden_documents
 
     my @docs;
 
-    # Filter out any documents that are volatile versions
     foreach my $doc (@{($self->value( "hidden_documents" ))})
     {
-        next if $doc->has_relation( undef, "isVolatileVersionOf" );
         push @docs, $doc;
     }
 

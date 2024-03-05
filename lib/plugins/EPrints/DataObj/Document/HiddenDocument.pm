@@ -37,9 +37,15 @@ sub create
         $session,
         {
             _parent => $eprint,
-            eprintid => $eprint->get_id
+            eprintid => $eprint->get_id,
+            relation => [{
+                type => EPrints::Utils::make_relation( "isVolatileVersionOf" ),
+                uri => $eprint->internal_uri(),
+            }],
         },
         $session->dataset( "hidden_document" ) );
+
+        
 }
 
 sub get_system_field_info
@@ -86,6 +92,12 @@ sub get_defaults
     $data->{pos} = $class->next_hidden_doc_pos( $session->get_database, $data->{eprintid} );
 
     $data->{placement} = $data->{pos};
+
+    # create all hidden docs as volatile versions - this keeps them off the radar of exports, indexers and thumbnail/preview generators
+    $data->{relation} = [{
+        type => EPrints::Utils::make_relation( "isVolatileVersionOf" ),
+        uri => $data->{_parent}->internal_uri(),
+    }],
 
     return $data;
 }

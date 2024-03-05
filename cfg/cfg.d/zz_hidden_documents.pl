@@ -16,6 +16,7 @@ $c->{datasets}->{hidden_document} = {
     name => "hidden_document",
     index => 0,
     import => 0,
+    export_as_xml=>0,
 };
 
 

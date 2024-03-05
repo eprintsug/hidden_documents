@@ -9,9 +9,9 @@
           <datasetid>document</datasetid>
           <filename>cfg.d/hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>07c669472fa33dcadb4f1e9583e14820</hash>
+          <hash>2e1b5f38677e183b98a6f571a7dfba0d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2490</filesize>
+          <filesize>2364</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -25,9 +25,9 @@
           <datasetid>document</datasetid>
           <filename>epm/hidden_documents/cfg/cfg.d/zz_hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>33998ca11fbdaec07b5e7338f0b96594</hash>
+          <hash>94da4479eb1239fb0e47b978cc6df469</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1041</filesize>
+          <filesize>1063</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -41,17 +41,17 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>5c45e7298f48ed956ba56643c556e20d</hash>
+          <hash>9640c81c1b3d0e3ce03577b5ffdb66ef</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2854</filesize>
+          <filesize>2986</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/DataObj/Document/HiddenDocument.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>4805a6c7667814cb41a25f256f57e7b5</hash>
+          <hash>31fecba0eb6a0cd0900c2c7239b4a54f</hash>
           <hash_type>MD5</hash_type>
-          <filesize>4422</filesize>
+          <filesize>4897</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -97,9 +97,9 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/Screen/EPrint/UploadMethod/HiddenFile.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>25485de8a80d1d90ed26a408aca5453d</hash>
+          <hash>0904ca2eca19914cc7397e7c77cf94de</hash>
           <hash_type>MD5</hash_type>
-          <filesize>6522</filesize>
+          <filesize>6557</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -116,7 +116,7 @@
       <content>install</content>
     </document>
   </documents>
-  <version>0.4</version>
+  <version>0.5</version>
   <creators>
     <item>
       <name>
