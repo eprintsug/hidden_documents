@@ -9,9 +9,17 @@
           <datasetid>document</datasetid>
           <filename>cfg.d/hidden_documents.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>2e1b5f38677e183b98a6f571a7dfba0d</hash>
+          <hash>ef3e5147652cd3cf9af88cf8bf21e2a5</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2364</filesize>
+          <filesize>2379</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>citations/hidden_document/brief.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>cef9751b9e606b021491ddb6005c76ba</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>425</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -41,9 +49,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9640c81c1b3d0e3ce03577b5ffdb66ef</hash>
+          <hash>09c8a332e6f9d4577e7fadddab5cc9b7</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2986</filesize>
+          <filesize>3055</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -116,7 +124,7 @@
       <content>install</content>
     </document>
   </documents>
-  <version>0.5</version>
+  <version>0.6</version>
   <creators>
     <item>
       <name>

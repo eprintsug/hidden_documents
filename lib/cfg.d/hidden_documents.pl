@@ -5,7 +5,7 @@ $c->add_trigger( EP_TRIGGER_URL_REWRITE, sub
 	my( $uri, $rc, $request ) = @args{ qw( uri return_code request ) };
     my $repository = $EPrints::HANDLE->current_repository();
     # /id/eprint/<eprint_id>/hidden/<pos>/filename
-    if( $uri =~ s! ^/([1-9][0-9]*)/hidden/([1-9][0-9]*)/(\b) !!x )
+    if( $uri =~ s! ^/(?:id/eprint/)?([1-9][0-9]*)/hidden/([1-9][0-9]*)/(\b) !!x )
     {
         my $eprintid = $1;
         my $pos = $2;

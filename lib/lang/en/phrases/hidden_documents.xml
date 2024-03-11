@@ -29,6 +29,8 @@
 <epp:phrase id="hidden_document_fieldname_content">Content</epp:phrase>
 <epp:phrase id="hidden_document_fieldhelp_content">The conent of this document, as opposed to the format.</epp:phrase>
 
+<epp:phrase id="hidden_document_fieldname_format">Type</epp:phrase>
+
 <epp:phrase id="hidden_document_fieldname_formatdesc">Description</epp:phrase>
 <epp:phrase id="hidden_document_fieldhelp_formatdesc">You may offer an additional brief description of the format.</epp:phrase>
 
