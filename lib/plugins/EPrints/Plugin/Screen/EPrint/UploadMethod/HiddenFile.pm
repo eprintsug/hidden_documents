@@ -161,7 +161,6 @@ sub action_create_file
 sub action_finish_file
 {
 	my( $self ) = @_;
-
 	my $session = $self->{session};
 	my $processor = $self->{processor};
 	my $eprint = $processor->{eprint};
@@ -170,14 +169,11 @@ sub action_finish_file
 	return if !defined $file;
 
 	my $doc = $file->parent;
-	return if !defined $doc || !$doc->isa( "EPrints::DataObj::HiddenDocument" );
-
+	return if !defined $doc || !$doc->isa( "EPrints::DataObj::Document::HiddenDocument" );
 	return if $doc->value( "eprintid" ) ne $eprint->id;
-
 	my $epdata = {};
 
 	my $tmpfile = $file->get_local_copy;
-
 	$session->run_trigger( EPrints::Const::EP_TRIGGER_MEDIA_INFO,
 			filepath => "$tmpfile",
 			filename => $file->value( "filename" ),

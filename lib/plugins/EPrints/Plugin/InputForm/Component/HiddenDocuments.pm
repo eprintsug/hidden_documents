@@ -493,7 +493,7 @@ sub _render_related_docs
 			my( undef, undef, $dataobj ) = @_;
 
 			# in the future we might get other objects coming back
-			next if !$dataobj->isa( "EPrints::DataObj::HiddenDocument" );
+			next if !$dataobj->isa( "EPrints::DataObj::Document::HiddenDocument" );
 
 			$div->appendChild( $self->_render_volatile_div( $dataobj ) );
 		});

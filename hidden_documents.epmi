@@ -49,9 +49,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/hidden_documents.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>09c8a332e6f9d4577e7fadddab5cc9b7</hash>
+          <hash>753123cee4465f3874e4d2d214b8dccd</hash>
           <hash_type>MD5</hash_type>
-          <filesize>3055</filesize>
+          <filesize>3137</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -65,9 +65,9 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/InputForm/Component/HiddenDocuments.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>4bbce45f47b11a5ffd7fe6cb52ed9684</hash>
+          <hash>4ecb34c2f7975156d472e5a19da37d41</hash>
           <hash_type>MD5</hash_type>
-          <filesize>19819</filesize>
+          <filesize>19829</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -105,9 +105,9 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/Screen/EPrint/UploadMethod/HiddenFile.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>0904ca2eca19914cc7397e7c77cf94de</hash>
+          <hash>3ca780e5ca6cdfcd4ff4ede8722eac6f</hash>
           <hash_type>MD5</hash_type>
-          <filesize>6557</filesize>
+          <filesize>6563</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -124,7 +124,7 @@
       <content>install</content>
     </document>
   </documents>
-  <version>0.6</version>
+  <version>0.7</version>
   <creators>
     <item>
       <name>
