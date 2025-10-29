@@ -65,7 +65,12 @@ sub get_system_field_info
             $sf->{set_name} = "hidden_licenses";
         }
 
-        unless ( $sf->{name} eq "docid" || $sf->{name} eq "date_embargo" || $sf->{name} eq "security" )
+        if( $sf->{name} eq "security" )
+        {
+            $sf->{set_name} = "hidden_security";
+        }
+
+        unless ( $sf->{name} eq "docid" )
         {
            push @new_system_field_info, $sf;
         }
@@ -201,6 +206,14 @@ sub permit
     {
         return 0;
     }
+}
+
+# A hidden document by its nature is never public
+sub is_public
+{
+    my( $self ) = @_;
+
+    return 0;
 }
 
 1;

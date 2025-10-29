@@ -1,3 +1,9 @@
+$c->{set_hidden_document_defaults} = sub
+{
+    my( $data, $repository, $eprint ) = @_;
+    $data->{security} = "staffonly";
+};
+
 $c->add_trigger( EP_TRIGGER_URL_REWRITE, sub
 {
     my( %args ) = @_;
