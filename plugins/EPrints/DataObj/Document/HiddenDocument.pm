@@ -70,6 +70,11 @@ sub get_system_field_info
             $sf->{set_name} = "hidden_security";
         }
 
+        if( $sf->{name} eq "content" )
+        {
+            $sf->{set_name} = "hidden_content";
+        }
+ 
         unless ( $sf->{name} eq "docid" )
         {
            push @new_system_field_info, $sf;
